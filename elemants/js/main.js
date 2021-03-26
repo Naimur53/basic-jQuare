@@ -19,7 +19,9 @@ $(document).ready(function(){
     $("#stop").click(function(){
         $(".demo3").stop();
     })
-
+    $("#test").click(function(){
+        $(".demo4").addClass("test");
+    })
 
 
 
