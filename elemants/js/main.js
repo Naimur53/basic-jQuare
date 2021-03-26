@@ -22,6 +22,9 @@ $(document).ready(function(){
     $("#test").click(function(){
         $(".demo4").addClass("test");
     })
+    $("#animate").click(function(){
+        $(".test").animate({left:'200px'});
+    });
 
 
 
